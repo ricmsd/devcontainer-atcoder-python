@@ -1,7 +1,13 @@
 alias test='oj t -c "pypy3 main.py" -d ./tests/'
 alias test2='oj t -c "python3 main.py" -d ./tests/'
+alias test3='oj t -c ./a.out -d ./tests/'
+
 alias sb='acc s main.py -- --guess-python-interpreter pypy'
 alias sb2='acc s main.py'
+alias sb3='acc s main.cpp'
+
 alias o='code main.py'
 alias d='python3 main.py'
+alias c='python3 ~/.local/bin/p2cpp.py main.py main.cpp'
+
 alias login='acc login && oj login https://beta.atcoder.jp/'
