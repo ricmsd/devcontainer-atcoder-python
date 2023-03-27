@@ -36,6 +36,7 @@ $ o              # edit .py file
 $ test           # test .py file with contest data
 $ sb             # submit .py file to atcoder.jp
 ```
+For the meanings of 'o', 'test', and 'sb', please refer to the bash_aliases file.
 
 ## Python to C++ conversion
 For cases where you can't avoid TLE/MLE in Python or PyPy, we added a way to change Python code to C++ and try submitting it. We use ChatGPT to convert from Python to C++, so you need to set some environment variables in the container to use this feature. (Please create your own API key on the OpenAI website.)
@@ -50,7 +51,7 @@ $ acc new abc295
 $ cd abc295/a
 $ o              # edit .py file
 $ test           # test .py file
-$ c              # .py to .cpp with ChatGPT and output execution file (a.out)
+$ c              # .py to .cpp with ChatGPT(gpt-3.5-turbo model) and output execution file (a.out)
 $ test3          # test a.out file
 $ sb3            # submit .cpp file to atcoder.jp
 ```
@@ -58,7 +59,3 @@ The conversion often fails, but we hope it will improve with the release of GPT-
 
 ## Acknowledgment
 This project is based on the [gomatofu/atcoder_python](https://github.com/gomatofu/atcoder_python) repository. Many thanks for the inspiration and guidance.
-
-## TODO
-- Python to C++ conversion
-  - Enable models such as gpt-4 and gpt-3.5-turbo (now fixed to text-davinci-003)

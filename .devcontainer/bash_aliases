@@ -8,6 +8,6 @@ alias sb3='acc s main.cpp'
 
 alias o='code main.py'
 alias d='python3 main.py'
-alias c='python3 ~/.local/bin/p2cpp.py main.py main.cpp'
+alias c='python3 ~/.local/bin/p2cpp.py gpt-3.5-turbo main.py main.cpp'
 
 alias login='acc login && oj login https://beta.atcoder.jp/'
