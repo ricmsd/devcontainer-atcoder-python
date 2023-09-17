@@ -1,0 +1,9 @@
+version: '3'
+services:
+  atcoder-python:
+    build: .
+    image: atcoder-python
+    container_name: atcoder-python
+    tty: true
+    volumes: 
+      - ../contest:/home/atcoder/contest

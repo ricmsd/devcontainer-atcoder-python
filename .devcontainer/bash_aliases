@@ -1,0 +1,6 @@
+alias login='acc login && oj login https://beta.atcoder.jp/'
+
+alias o='code main.py'
+alias d='pypy3 main.py'
+alias test='oj t -c "pypy3 main.py" -d ./tests/'
+alias sb='acc s main.py -- --guess-python-interpreter pypy'
