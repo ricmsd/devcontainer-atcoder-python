@@ -17,7 +17,8 @@ For more information on WSL2 and Docker Desktop, see the following
 - [Get started with Docker remote containers on WSL 2](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-containers)
 
 ## Setup
-1. First, log in as "atcoder" user to Ubuntu on WSL2.
+First, please do the following 1-5.
+1. Log in as "atcoder" user to Ubuntu on WSL2.
 1. Open the cloned file with VSCode and change to the Dev Container environment.
    ```
    $ git clone https://github.com/ricmsd/devcontainer-atcoder-python.git
@@ -26,6 +27,8 @@ For more information on WSL2 and Docker Desktop, see the following
 1. Click 'Reopen in Container' to launch the container environment. Then wait for the Docker image to finish building (first boot only. It took about 30 minutes on my Intel Core i7 12700F PC).
 1. Open a new Terminal and enter 'login'.
 1. Enter your AtCoder username and password as you will be asked twice.
+
+Setup is complete when login is successfully completed. Next time you want to use it, just login to Ubuntu with "atcoder" and run `code devcontainer-atcoder-python`.
 
 ## Usage
 For example, question A in AtCoder Beginner Contest 320 is submitted as follows
